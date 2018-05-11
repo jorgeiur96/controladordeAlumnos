@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jorge.controlalumnos.ClaseProfesor">
+
+    <include android:id="@+id/barraSup"
+        layout="@layout/barra_superior"
+        >
+    </include>
+
+<TextView
+    android:layout_marginTop="70dp"
+    android:layout_width="120dp"
+    android:layout_height="wrap_content"
+    android:text="Nombre :"
+    />
+    <TextView
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="70dp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+         android:id="@+id/txtnombre"
+        />
+    <TextView
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="70dp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtappellido"
+        />
+
+    <ImageButton
+        android:layout_marginTop="150dp"
+        android:src="@drawable/add"
+        android:layout_width="120dp"
+        android:id="@+id/add"
+
+        android:background="@color/colorWhite"
+        android:layout_marginLeft="120dp"
+        android:tooltipText="Agregar Actividad"
+        android:layout_height="120dp" />
+    <ImageButton
+        android:id="@+id/btnverActividad"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/modificar"
+        android:layout_width="120dp"
+        android:tooltipText="funciones de Actividad"
+        android:layout_marginLeft="120dp"
+        android:layout_height="120dp" />
+
+
+</android.support.design.widget.CoordinatorLayout>

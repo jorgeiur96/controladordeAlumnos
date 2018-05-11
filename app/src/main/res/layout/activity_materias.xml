@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".Materias">
+
+    <include android:id="@+id/barraSup"
+        layout="@layout/barra_superior"
+        >
+    </include>
+
+
+    <GridView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/listView"
+        android:columnWidth="90dp"
+        android:background="@color/colorAccent"
+        android:verticalSpacing="10dp"
+        android:elevation="16dp"
+        android:numColumns="2"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:transitionGroup="false"
+        android:longClickable="false"
+        android:gravity="top"
+        android:choiceMode="singleChoice"
+        android:contextClickable="false"
+        android:fastScrollAlwaysVisible="false"
+        android:fastScrollEnabled="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textFilterEnabled="false"
+        android:visibility="visible"
+        android:forceHasOverlappingRendering="false"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/scrollView"
+        android:layout_toEndOf="@+id/scrollView" />
+
+</LinearLayout>

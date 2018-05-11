@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ControlAlumnos</string>
+    <array name="opciones">
+        <item>Escoger Tipo de usuario</item>
+        <item>Acudiente</item>
+        <item>Docente</item>
+
+    </array>
+</resources>
